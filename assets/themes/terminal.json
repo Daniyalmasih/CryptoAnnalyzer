@@ -1,0 +1,42 @@
+{
+  "name": "terminal",
+  "colors": {
+    "background": "#000000",
+    "foreground": "#00ff00",
+    "highlight": "#00ff00",
+    "dim": "#006600",
+    "bright": "#00ff44",
+    "error": "#ff0000",
+    "warning": "#ffff00",
+    "success": "#00ff00",
+    "info": "#00ccff",
+    "panel_border": "#00ff00",
+    "panel_bg": "#001100",
+    "header_bg": "#003300",
+    "footer_bg": "#001100"
+  },
+  "styles": {
+    "header": "bold green on black",
+    "subheader": "dim green on black",
+    "value": "bright_green on black",
+    "label": "green on black",
+    "positive": "bright_green on black",
+    "negative": "bright_red on black",
+    "neutral": "yellow on black",
+    "warning": "yellow on black",
+    "error": "red on black",
+    "panel_border": "green on black",
+    "chart": "green on black"
+  },
+  "textual_css": [
+    ".app { background: #000000; color: #00ff00; }",
+    ".header { background: #003300; color: #00ff00; }",
+    ".panel { border: solid #00ff00; background: #001100; }",
+    ".panel-title { color: #00ff00; }",
+    ".footer { background: #001100; color: #006600; }",
+    ".positive { color: #00ff44; }",
+    ".negative { color: #ff0044; }",
+    ".neutral { color: #ffff00; }",
+    "ScrollView { scrollbar-background: #003300; scrollbar-color: #00ff00; }"
+  ]
+}

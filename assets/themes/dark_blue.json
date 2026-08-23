@@ -1,0 +1,41 @@
+{
+  "name": "dark_blue",
+  "colors": {
+    "background": "#000022",
+    "foreground": "#00aaff",
+    "highlight": "#00ccff",
+    "dim": "#004466",
+    "bright": "#00ddff",
+    "error": "#ff0044",
+    "warning": "#ffcc00",
+    "success": "#00ff66",
+    "info": "#00aaff",
+    "panel_border": "#0055aa",
+    "panel_bg": "#000033",
+    "header_bg": "#001144",
+    "footer_bg": "#000033"
+  },
+  "styles": {
+    "header": "bold cyan on black",
+    "subheader": "dim cyan on black",
+    "value": "bright_cyan on black",
+    "label": "cyan on black",
+    "positive": "bright_green on black",
+    "negative": "bright_red on black",
+    "neutral": "yellow on black",
+    "warning": "yellow on black",
+    "error": "red on black",
+    "panel_border": "cyan on black",
+    "chart": "cyan on black"
+  },
+  "textual_css": [
+    ".app { background: #000022; color: #00aaff; }",
+    ".header { background: #001144; color: #00aaff; }",
+    ".panel { border: solid #0055aa; background: #000033; }",
+    ".panel-title { color: #00aaff; }",
+    ".footer { background: #000033; color: #004466; }",
+    ".positive { color: #00ff66; }",
+    ".negative { color: #ff0044; }",
+    ".neutral { color: #ffcc00; }"
+  ]
+}

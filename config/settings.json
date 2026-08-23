@@ -1,0 +1,54 @@
+{
+  "default_symbol": "BTCUSDT",
+  "interval": "5m",
+  "orderbook": {
+    "depth": 100,
+    "cluster_bps": 5,
+    "refresh_ms": 1000
+  },
+  "whale": {
+    "wall_multiplier": 5.0,
+    "min_notional": 500000.0,
+    "min_ratio": 3.0,
+    "cluster_radius_bps": 2
+  },
+  "trend": {
+    "ema_fast": 12,
+    "ema_slow": 26,
+    "rsi_period": 14,
+    "adx_period": 14,
+    "strong_threshold": 70,
+    "medium_threshold": 40,
+    "weak_threshold": 20
+  },
+  "volume": {
+    "very_high_ratio": 2.0,
+    "high_ratio": 1.5,
+    "low_ratio": 0.7,
+    "very_low_ratio": 0.4,
+    "spike_multiplier": 2.0
+  },
+  "theme": "terminal",
+  "use_rust": true,
+  "use_websocket": false,
+  "api": {
+    "rest_url": "https://fapi.binance.com",
+    "ws_url": "wss://fstream.binance.com/stream",
+    "timeout_seconds": 10,
+    "retry_attempts": 3,
+    "backoff_seconds": 1
+  },
+  "logging": {
+    "level": "INFO",
+    "console": true,
+    "file": true,
+    "jsonl": true,
+    "max_bytes": 10485760,
+    "backup_count": 5
+  },
+  "ui": {
+    "refresh_interval_ms": 1000,
+    "max_chart_bars": 500,
+    "max_tape_trades": 1000
+  }
+}

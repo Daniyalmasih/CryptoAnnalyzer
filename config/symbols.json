@@ -1,0 +1,74 @@
+{
+  "watchlist": [
+    {
+      "symbol": "BTCUSDT",
+      "display_name": "Bitcoin",
+      "category": "MAJOR",
+      "tick_size": 0.1,
+      "min_qty": 0.001
+    },
+    {
+      "symbol": "ETHUSDT",
+      "display_name": "Ethereum",
+      "category": "MAJOR",
+      "tick_size": 0.01,
+      "min_qty": 0.01
+    },
+    {
+      "symbol": "BNBUSDT",
+      "display_name": "BNB",
+      "category": "MAJOR",
+      "tick_size": 0.01,
+      "min_qty": 0.01
+    },
+    {
+      "symbol": "SOLUSDT",
+      "display_name": "Solana",
+      "category": "MAJOR",
+      "tick_size": 0.001,
+      "min_qty": 0.1
+    },
+    {
+      "symbol": "XRPUSDT",
+      "display_name": "Ripple",
+      "category": "MAJOR",
+      "tick_size": 0.0001,
+      "min_qty": 1.0
+    },
+    {
+      "symbol": "ADAUSDT",
+      "display_name": "Cardano",
+      "category": "MAJOR",
+      "tick_size": 0.00001,
+      "min_qty": 1.0
+    },
+    {
+      "symbol": "DOTUSDT",
+      "display_name": "Polkadot",
+      "category": "MAJOR",
+      "tick_size": 0.001,
+      "min_qty": 0.1
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "display_name": "Avalanche",
+      "category": "MAJOR",
+      "tick_size": 0.001,
+      "min_qty": 0.1
+    },
+    {
+      "symbol": "MATICUSDT",
+      "display_name": "Polygon",
+      "category": "MAJOR",
+      "tick_size": 0.00001,
+      "min_qty": 1.0
+    },
+    {
+      "symbol": "LINKUSDT",
+      "display_name": "Chainlink",
+      "category": "MAJOR",
+      "tick_size": 0.001,
+      "min_qty": 0.1
+    }
+  ]
+}

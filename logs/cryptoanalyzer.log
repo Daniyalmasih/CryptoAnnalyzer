@@ -1,0 +1,24 @@
+2026-08-13 12:52:28,803 - cryptoanalyzer - ERROR - main.py:343 - Fatal error: attempted relative import beyond top-level package
+Traceback (most recent call last):
+  File "C:\Users\imsis\CryptoAnalyzer\src\main.py", line 325, in main
+    from ui.terminal_app import TerminalApp
+  File "C:\Users\imsis\CryptoAnalyzer\src\ui\__init__.py", line 2, in <module>
+    from .theme import Theme, load_theme
+  File "C:\Users\imsis\CryptoAnalyzer\src\ui\theme.py", line 6, in <module>
+    from ..utils.config import get_project_root
+ImportError: attempted relative import beyond top-level package
+2026-08-13 16:16:11,035 - cryptoanalyzer - ERROR - main.py:343 - Fatal error: property 'is_running' of 'TerminalApp' object has no setter
+Traceback (most recent call last):
+  File "C:\Users\imsis\CryptoAnalyzer\src\main.py", line 336, in main
+    app = TerminalApp(args.symbol, args.config)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imsis\CryptoAnalyzer\src\ui\terminal_app.py", line 97, in __init__
+    self.is_running = False
+    ^^^^^^^^^^^^^^^
+AttributeError: property 'is_running' of 'TerminalApp' object has no setter
+2026-08-13 16:17:39,776 - cryptoanalyzer - ERROR - logger.py:112 - Failed to write JSON snapshot: Object of type bool_ is not JSON serializable
+2026-08-13 16:17:42,537 - cryptoanalyzer - ERROR - logger.py:112 - Failed to write JSON snapshot: Object of type bool_ is not JSON serializable
+2026-08-13 16:17:45,519 - cryptoanalyzer - ERROR - logger.py:112 - Failed to write JSON snapshot: Object of type bool_ is not JSON serializable
+2026-08-13 16:17:48,062 - cryptoanalyzer - ERROR - logger.py:112 - Failed to write JSON snapshot: Object of type bool_ is not JSON serializable
+2026-08-13 16:17:51,512 - cryptoanalyzer - ERROR - logger.py:112 - Failed to write JSON snapshot: Object of type bool_ is not JSON serializable
+2026-08-13 16:17:54,922 - cryptoanalyzer - ERROR - logger.py:112 - Failed to write JSON snapshot: Object of type bool_ is not JSON serializable
